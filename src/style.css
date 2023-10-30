@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"); */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.OpenMenuAnimation {
+  animation: menuBar ease-out 0.5s;
+}
+
+.CloseMenuAnimation {
+  animation: closeBar ease-out 0.5s;
+}
+
+@keyframes menuBar {
+  0% {
+    transform: translateX(-150px);
+    opacity: 0.5;
+  }
+
+  /* 50% {
+    opacity: 0.4;
+  } */
+
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes closeBar {
+  0% {
+    transform: translateX(0px);
+  }
+
+  100% {
+    transform: translateX(-150px);
+  }
+}
