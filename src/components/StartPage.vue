@@ -1,5 +1,5 @@
 <template>
-  <section class="h-[260vh] w-screen bg-sky-100">
+  <section class="h-[200vh] w-screen bg-sky-100">
     <the-header></the-header>
     <main class="flex flex-col gap-6 pt-10">
       <h2 class="text-2xl font-vazirmtn text-gray-800 text- pl-10 font-bold">
