@@ -1,12 +1,12 @@
 <template>
   <header class="">
     <top-shape></top-shape>
+    <div class="backdrop" v-if="menuOpen" @click="openMenu"></div>
     <div
       class="OpenMenuAnimation text-2xl fixed z-40 h-screen min-w-[250px] bg-slate-50"
       v-if="menuOpen"
     >
-      <div class="fixed top-0 left-0" @click="menuOpen"></div>
-      <div class="px-4 py-4 z-40">
+      <div class="px-4 py-4 z-30">
         <div class="flex items-center justify-between">
           <div class="flex items-center gap-6">
             <img
