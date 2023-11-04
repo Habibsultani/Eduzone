@@ -1,7 +1,8 @@
 <template>
   <section class="bg-blue-200 h-[100vh] w-screen">
+    <!-- big screen -->
     <header class="hidden md:block w-screen">
-      <nav class="w-[1280px] mx-auto p-8">
+      <nav class="max-w-[1280px] mx-auto p-8">
         <ul class="flex items-center justify-between">
           <div>
             <li>
@@ -14,10 +15,11 @@
           </div>
           <div class="flex gap-6">
             <li>
-              <a
+              <router-link
+                to="/service"
                 href="#"
                 class="text-lg font-vazirmtn font-bold text-gray-700 px-6 py-2 active:bg-blue-100 hover:bg-blue-100 rounded-full hover:scale-150 active:"
-                >Our Service</a
+                >Our Service</router-link
               >
             </li>
             <li>
@@ -45,9 +47,17 @@
         </ul>
       </nav>
     </header>
+    <section id="hero-big-screen">
+      <div class="w-screen">
+        <div class="max-w-1280px mx-auto p-10"></div>
+      </div>
+    </section>
+
+    <!-- small screen part   -->
     <top-shape></top-shape>
     <div
-      class="flex md:flex-row gap-2 px-8 min-w-[200px] sm:min-w-1200px flex-col items-center justify-center"
+      id="hero-small-screen"
+      class="flex md:hidden gap-2 px-8 min-w-[200px] sm:min-w-1200px flex-col items-center justify-center"
     >
       <h4 class="md:hidden text-center pt-10 text-gray-700 text-xl font-logo">
         Eduzone
