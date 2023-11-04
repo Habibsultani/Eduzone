@@ -12,7 +12,7 @@
             <img
               src="../assets/RASHED.jpg"
               alt="userPhoto"
-              class="w-18 bg-contain h-20 rounded-full"
+              class="w-18 bg-contain h-20 rounded-full-"
             />
             <p class="text-[16px] font-vazirmtn font-semibold leading-6">
               Ahmad <br />

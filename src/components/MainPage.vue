@@ -1,8 +1,33 @@
 <template>
   <section class="bg-blue-200 h-[100vh] w-screen">
+    <header class="hidden md:block w-screen">
+      <nav class="w-[1280px] mx-auto">
+        <ul class="flex items-center justify-between">
+          <div>
+            <li>
+              <a href="#">Eduzone</a>
+            </li>
+          </div>
+          <div class="flex">
+            <li>
+              <a href="#">Our Service</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Log in </a>
+            </li>
+            <li>
+              <a href="#">Sign Up </a>
+            </li>
+          </div>
+        </ul>
+      </nav>
+    </header>
     <top-shape></top-shape>
     <div
-      class="flex gap-2 px-8 min-w-[200px] flex-col items-center justify-center"
+      class="flex md:flex-row gap-2 px-8 min-w-[200px] sm:min-w-1200px flex-col items-center justify-center"
     >
       <h4 class="text-center pt-10 text-gray-700 text-xl font-logo">Eduzone</h4>
       <main-img></main-img>
