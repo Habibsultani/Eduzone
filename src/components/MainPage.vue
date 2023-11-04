@@ -49,7 +49,29 @@
     </header>
     <section id="hero-big-screen">
       <div class="w-screen">
-        <div class="max-w-1280px mx-auto p-10"></div>
+        <div class="max-w-1280px mx-auto p-10 flex gap-4">
+          <div class="flex flex-col gap-5 p-10">
+            <h1
+              class="text-6xl tracking-widest leading-2 text-gray-800 font-vazirmtn font-bold items-start"
+            >
+              Providing The Best <br />
+              <Span class="rounded-xl text-blue-600">Online Learning</Span
+              ><br />
+              Experenice
+            </h1>
+            <p class="text-md text-gray-600 leading-relaxed">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+              quaerat <br />provident, dicta distinctio architecto optio et
+              perferendis ullam! Cumque deleniti
+            </p>
+            <router-link
+              to="register"
+              class="font-vazirmtn bg-blue-600 hover:bg-blue-700 transform-color duration-200 active:bg-blue-800 text-slate-100 py-2 text-md font-bold rounded-full"
+            >
+              Get Start
+            </router-link>
+          </div>
+        </div>
       </div>
     </section>
 
