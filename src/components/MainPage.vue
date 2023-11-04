@@ -14,16 +14,32 @@
           </div>
           <div class="flex gap-6">
             <li>
-              <a href="#">Our Service</a>
+              <a
+                href="#"
+                class="text-lg font-vazirmtn font-bold text-gray-700 px-6 py-2 hover:bg-blue-100 rounded-full hover:scale-150"
+                >Our Service</a
+              >
             </li>
             <li>
-              <a href="#">About</a>
+              <a
+                href="#"
+                class="text-lg font-vazirmtn font-bold text-gray-700 px-6 py-2 hover:bg-blue-100 rounded-full hover:scale-150"
+                >About</a
+              >
             </li>
             <li>
-              <a href="#">Log in </a>
+              <a
+                href="#"
+                class="text-lg font-vazirmtn font-bold text-gray-700 px-6 py-2 hover:bg-blue-100 rounded-full hover:scale-150"
+                >Log in
+              </a>
             </li>
             <li>
-              <a href="#">Sign Up </a>
+              <a
+                href="#"
+                class="text-lg font-vazirmtn font-bold text-gray-700 px-6 py-2 hover:bg-blue-100 rounded-full hover:scale-150"
+                >Sign Up
+              </a>
             </li>
           </div>
         </ul>
