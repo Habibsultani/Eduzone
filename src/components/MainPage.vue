@@ -16,28 +16,28 @@
             <li>
               <a
                 href="#"
-                class="text-lg font-vazirmtn font-bold text-gray-700 px-6 py-2 hover:bg-blue-100 rounded-full hover:scale-150"
+                class="text-lg font-vazirmtn font-bold text-gray-700 px-6 py-2 active:bg-blue-100 hover:bg-blue-100 rounded-full hover:scale-150 active:"
                 >Our Service</a
               >
             </li>
             <li>
               <a
                 href="#"
-                class="text-lg font-vazirmtn font-bold text-gray-700 px-6 py-2 hover:bg-blue-100 rounded-full hover:scale-150"
+                class="text-lg font-vazirmtn font-bold text-gray-700 px-6 py-2 active:bg-blue-100 hover:bg-blue-100 rounded-full hover:scale-150"
                 >About</a
               >
             </li>
             <li>
               <a
                 href="#"
-                class="text-lg font-vazirmtn font-bold text-gray-700 px-6 py-2 hover:bg-blue-100 rounded-full hover:scale-150"
+                class="text-lg font-vazirmtn font-bold text-gray-700 px-6 py-2 active:bg-blue-100 hover:bg-blue-100 rounded-full hover:scale-150"
                 >Log in
               </a>
             </li>
             <li>
               <a
                 href="#"
-                class="text-lg font-vazirmtn font-bold text-gray-700 px-6 py-2 hover:bg-blue-100 rounded-full hover:scale-150"
+                class="text-lg font-vazirmtn font-bol px-6 py-2 bg-blue-500 text-white active:bg-blue-700 hover:bg-blue-600 rounded-full hover:scale-150"
                 >Sign Up
               </a>
             </li>
@@ -49,7 +49,9 @@
     <div
       class="flex md:flex-row gap-2 px-8 min-w-[200px] sm:min-w-1200px flex-col items-center justify-center"
     >
-      <h4 class="text-center pt-10 text-gray-700 text-xl font-logo">Eduzone</h4>
+      <h4 class="md:hidden text-center pt-10 text-gray-700 text-xl font-logo">
+        Eduzone
+      </h4>
       <main-img></main-img>
       <div class="flex flex-col gap-1">
         <h1
