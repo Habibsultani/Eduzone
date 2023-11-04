@@ -67,12 +67,13 @@
             </p>
             <div class="flex gap-4">
               <button
-                @click="GoToStartPage"
+                @click="GoToStartPage('/register')"
                 class="w-32 px-4 py-2 bg-blue-500 text-white active:bg-blue-700 hover:bg-blue-600 rounded-lg text-xl font-bold font-vazirmtn"
               >
                 Get Start
               </button>
               <button
+                @click="GoToStartPage('/about')"
                 class="w-48 px-4 py-2 text-gray-700 bg-blue-100 active:bg-blue-400 hover:bg-blue-300 rounded-lg text-xl font-bold font-vazirmtn"
               >
                 Explore more
@@ -113,7 +114,7 @@
         </p>
       </div>
       <button
-        @click="GoToStartPage"
+        @click="GoToStartPage('/register')"
         class="w-full font-vazirmtn bg-blue-600 hover:bg-blue-700 transform-color duration-200 active:bg-blue-800 text-slate-100 py-2 text-md font-bold rounded-full"
       >
         Get started
@@ -130,8 +131,8 @@ export default {
   },
 
   methods: {
-    GoToStartPage() {
-      this.$router.push("/register");
+    GoToStartPage(router) {
+      this.$router.push(router);
     },
   },
 };
