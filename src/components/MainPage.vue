@@ -49,7 +49,7 @@
     </header>
     <section id="hero-big-screen" class="hidden md:block">
       <div class="w-screen">
-        <div class="max-w-1280px mx-auto p-10 flex gap-4">
+        <div class="max-w-1280px mx-auto p-6 flex items-center gap-4">
           <div class="flex flex-col gap-5 p-10">
             <h1
               class="text-6xl tracking-widest leading-2 text-gray-800 font-vazirmtn font-bold items-start"
@@ -78,6 +78,7 @@
               </button>
             </div>
           </div>
+          <main-img></main-img>
         </div>
       </div>
     </section>
