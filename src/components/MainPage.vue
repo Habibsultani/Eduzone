@@ -67,6 +67,7 @@
             </p>
             <div class="flex gap-4">
               <button
+                @click="GoToStartPage"
                 class="w-32 px-4 py-2 bg-blue-500 text-white active:bg-blue-700 hover:bg-blue-600 rounded-lg text-xl font-bold font-vazirmtn"
               >
                 Get Start
@@ -81,6 +82,9 @@
           <main-img></main-img>
         </div>
       </div>
+    </section>
+    <section class="hidden md:block">
+      <the-footer></the-footer>
     </section>
 
     <!-- small screen part   -->
