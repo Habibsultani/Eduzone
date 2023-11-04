@@ -47,7 +47,7 @@
         </ul>
       </nav>
     </header>
-    <section id="hero-big-screen">
+    <section id="hero-big-screen" class="hidden md:block">
       <div class="w-screen">
         <div class="max-w-1280px mx-auto p-10 flex gap-4">
           <div class="flex flex-col gap-5 p-10">
@@ -62,14 +62,21 @@
             <p class="text-md text-gray-600 leading-relaxed">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
               quaerat <br />provident, dicta distinctio architecto optio et
-              perferendis ullam! Cumque deleniti
+              perferendis ullam! <br />
+              Cumque deleniti
             </p>
-            <router-link
-              to="register"
-              class="font-vazirmtn bg-blue-600 hover:bg-blue-700 transform-color duration-200 active:bg-blue-800 text-slate-100 py-2 text-md font-bold rounded-full"
-            >
-              Get Start
-            </router-link>
+            <div class="flex gap-4">
+              <button
+                class="w-32 px-4 py-2 bg-blue-500 text-white active:bg-blue-700 hover:bg-blue-600 rounded-lg text-xl font-bold font-vazirmtn"
+              >
+                Get Start
+              </button>
+              <button
+                class="w-48 px-4 py-2 text-gray-700 bg-blue-100 active:bg-blue-400 hover:bg-blue-300 rounded-lg text-xl font-bold font-vazirmtn"
+              >
+                Explore more
+              </button>
+            </div>
           </div>
         </div>
       </div>
