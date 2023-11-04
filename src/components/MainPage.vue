@@ -1,14 +1,18 @@
 <template>
   <section class="bg-blue-200 h-[100vh] w-screen">
     <header class="hidden md:block w-screen">
-      <nav class="w-[1280px] mx-auto">
+      <nav class="w-[1280px] mx-auto p-8">
         <ul class="flex items-center justify-between">
           <div>
             <li>
-              <a href="#">Eduzone</a>
+              <a
+                href="#"
+                class="text-center pt-10 text-gray-700 text-xl font-logo"
+                >Eduzone</a
+              >
             </li>
           </div>
-          <div class="flex">
+          <div class="flex gap-6">
             <li>
               <a href="#">Our Service</a>
             </li>
