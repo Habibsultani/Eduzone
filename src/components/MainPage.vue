@@ -1,8 +1,11 @@
 <template>
   <section class="bg-blue-200 h-[100vh] w-screen">
     <!-- big screen -->
-    <header class="hidden md:block w-screen">
-      <nav class="max-w-[1280px] mx-auto p-8">
+    <header
+      :class="{ glassHeader: isGlass }"
+      class="hidden md:block w-screen glassHeader"
+    >
+      <nav class="max-w-[1280px] mx-auto p-6">
         <ul class="flex items-center justify-between">
           <div>
             <li>
@@ -130,10 +133,32 @@ export default {
     MainImg,
   },
 
+  data() {
+    return {
+      isGlass: false,
+    };
+  },
+
+  // watch() {
+  //   if (window.scroll > 0) {
+  //     this.isGlass = true;
+  //   } else {
+  //     this.isGlass = false;
+  //   }
+  // },
+
   methods: {
     GoToStartPage(router) {
       this.$router.push(router);
     },
+
+    makingGlassy() {
+      this.isGlass = true;
+      console.log("scrollong");
+    },
+  },
+  mounted() {
+    window.addEventListener("scroll", this.makingGlassy);
   },
 };
 </script>
