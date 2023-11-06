@@ -82,6 +82,61 @@
                 Explore more
               </button>
             </div>
+            <div class="flex">
+              <img
+                src="../assets/people/customer-01.jpg"
+                alt="customer"
+                class="h-12 rounded-full hover:scale-125 animation-scale duration-150"
+              />
+              <img
+                src="../assets/people/customer-02.jpg"
+                alt="customer"
+                class="h-12 rounded-full ml-[-30px] hover:scale-125 animation-scale duration-150"
+              />
+              <img
+                src="../assets/people/customer-03.jpg"
+                alt="customer"
+                class="h-12 rounded-full ml-[-30px] hover:scale-125 animation-scale duration-150"
+              />
+              <img
+                src="../assets/people/customer-04.jpg"
+                alt="customer"
+                class="h-12 rounded-full ml-[-30px] hover:scale-125 animation-scale duration-150"
+              />
+              <img
+                src="../assets/people/customer-05.jpg"
+                alt="customer"
+                class="h-12 rounded-full ml-[-30px] hover:scale-125 animation-scale duration-150"
+              />
+              <img
+                src="../assets/people/customer-06.jpg"
+                alt="customer"
+                class="h-12 rounded-full ml-[-30px] hover:scale-125 animation-scale duration-150"
+              />
+              <img
+                src="../assets/people/customer-07.jpg"
+                alt="customer"
+                class="h-12 rounded-full ml-[-30px] hover:scale-125 animation-scale duration-150"
+              />
+              <img
+                src="../assets/people/customer-08.jpg"
+                alt="customer"
+                class="h-12 rounded-full ml-[-30px] hover:scale-125 animation-scale duration-150"
+              />
+              <img
+                src="../assets/people/customer-01.jpg"
+                alt="customer"
+                class="h-12 rounded-full ml-[-30px] hover:scale-125 animation-scale duration-150"
+              />
+              <img
+                src="../assets/people/customer-01.jpg"
+                alt="customer"
+                class="h-12 rounded-full ml-[-30px] hover:scale-125 animation-scale duration-150"
+              />
+              <p class="font-vazirmtn text-sm">
+                <span class="font-bold">+1000K</span> users uring this app.
+              </p>
+            </div>
           </div>
           <main-img></main-img>
         </div>
