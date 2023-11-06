@@ -195,14 +195,6 @@ export default {
     };
   },
 
-  // watch() {
-  //   if (window.scroll > 0) {
-  //     this.isGlass = true;
-  //   } else {
-  //     this.isGlass = false;
-  //   }
-  // },
-
   methods: {
     GoToStartPage(router) {
       this.$router.push(router);
@@ -213,6 +205,7 @@ export default {
       console.log("scrollong");
     },
   },
+
   mounted() {
     window.addEventListener("scroll", this.makingGlassy);
   },
