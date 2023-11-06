@@ -1,9 +1,9 @@
 <template>
-  <section class="bg-blue-200 h-[100vh] w-screen">
+  <section class="bg-blue-200 h-[200vh] w-screen">
     <!-- big screen -->
     <header
       :class="{ glassHeader: isGlass }"
-      class="hidden md:block w-screen glassHeader"
+      class="hidden md:block w-screen fixed"
     >
       <nav class="max-w-[1280px] mx-auto p-6">
         <ul class="flex items-center justify-between">
@@ -50,7 +50,7 @@
         </ul>
       </nav>
     </header>
-    <section id="hero-big-screen" class="hidden md:block">
+    <section id="hero-big-screen" class="hidden md:block pt-24">
       <div class="w-screen">
         <div class="max-w-1280px mx-auto p-6 flex items-center gap-4">
           <div class="flex flex-col gap-5 p-10">
