@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-blue-200 h-[200vh] w-screen">
+  <section class="bg-blue-200 md:h-[200vh] h-[100vh] w-screen">
     <!-- big screen -->
     <header
       :class="{ glassHeader: isGlass }"
@@ -82,7 +82,7 @@
                 Explore more
               </button>
             </div>
-            <div class="flex">
+            <div class="flex items-center">
               <img
                 src="../assets/people/customer-01.jpg"
                 alt="customer"
@@ -133,8 +133,9 @@
                 alt="customer"
                 class="h-12 rounded-full ml-[-30px] hover:scale-125 animation-scale duration-150"
               />
-              <p class="font-vazirmtn text-sm">
-                <span class="font-bold">+1000K</span> users uring this app.
+              <p class="font-vazirmtn text-md ml-4">
+                <span class="font-bold text-blue-600">+1000K</span> users uring
+                this app.
               </p>
             </div>
           </div>
