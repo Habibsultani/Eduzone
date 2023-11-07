@@ -15,8 +15,8 @@
               class="w-16 bg-contain h-16 rounded-full"
             />
             <p class="text-[16px] font-vazirmtn font-semibold leading-6">
-              Ahmad <br />
-              Rhasid
+              Saif <br />
+              Oubari
             </p>
           </div>
           <button @click="openMenu">
