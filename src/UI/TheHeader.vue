@@ -10,9 +10,9 @@
         <div class="flex items-center justify-between">
           <div class="flex items-center gap-6">
             <img
-              src="../assets/RASHED.jpg"
+              src="../assets/saif.png"
               alt="userPhoto"
-              class="w-18 bg-contain h-20 rounded-full"
+              class="w-16 bg-contain h-16 rounded-full"
             />
             <p class="text-[16px] font-vazirmtn font-semibold leading-6">
               Ahmad <br />
