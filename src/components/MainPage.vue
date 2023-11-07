@@ -55,7 +55,7 @@
       id="hero-big-screen"
       class="hidden max-w-[1280px] mx-auto md:block pt-24"
     >
-      <div class="w-screen">
+      <div class="">
         <div class="max-w-1280px mx-auto p-6 flex items-center gap-4">
           <div class="flex flex-col gap-5 p-10">
             <h1
