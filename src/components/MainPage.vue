@@ -138,7 +138,7 @@
                 class="h-12 rounded-full ml-[-30px] hover:scale-125 animation-scale duration-150"
               />
               <p class="font-vazirmtn text-md ml-4">
-                <span class="font-bold text-blue-600">+1000K</span> users uring
+                <span class="font-bold text-blue-600">+1000K</span> users usinng
                 this app.
               </p>
             </div>
