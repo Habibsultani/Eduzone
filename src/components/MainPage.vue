@@ -6,18 +6,24 @@
 
     <section class="md:max-w-[1280px] mx-auto">
       <header>
-        <nav class="py-6 flex">
+        <nav class="py-6 flex justify-between align-center">
           <!-- Here is the logo place -->
-          <h2>Eduzone</h2>
-          <ul class="flex justify-between">
+          <h2 class="text-center text-gray-700 text-xl font-logo">Eduzone</h2>
+          <ul class="flex gap-4 align-baseline">
             <li>
-              <button>About us</button>
+              <button class="text-sm font-wazirmtn mt-2 font-semibold pt-2 p-4">
+                About us
+              </button>
             </li>
             <li>
-              <button>Our Services</button>
+              <button class="text-sm font-wazirmtn mt-2 font-semibold pt-2 p-4">
+                Our Services
+              </button>
             </li>
             <li>
-              <button>Your cart</button>
+              <button class="text-sm font-wazirmtn mt-2 font-semibold pt-2 p-4">
+                Your cart
+              </button>
             </li>
           </ul>
           <button>Sign up</button>
