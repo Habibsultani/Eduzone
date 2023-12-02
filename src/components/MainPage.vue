@@ -90,11 +90,22 @@
                   </svg>
                 </div>
               </button>
-              <button
-                @click="GoToStartPage('/about')"
-                class="w-48 px-4 py-2 text-gray-700 bg-blue-100 active:bg-blue-400 hover:bg-blue-300 rounded-lg text-xl font-bold font-vazirmtn"
-              >
-                Explore more
+              <button>
+                <p>Learn More</p>
+                <svg
+                  stroke-width="4"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  class="h-6 w-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14 5l7 7m0 0l-7 7m7-7H3"
+                    stroke-linejoin="round"
+                    stroke-linecap="round"
+                  ></path>
+                </svg>
               </button>
             </div>
             <div class="flex items-center">
