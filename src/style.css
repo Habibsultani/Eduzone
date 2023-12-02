@@ -5,6 +5,19 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* *********************************************************************************** */
+/* this class is just for a while just I want to test another ui for the hero section of the main page */
+
+.bigOldStyleContainer {
+
+  background-color: rgb(191 219 254);
+  height: 200vh;
+  width: full;
+}
+
+/* ///************************************************************************************ */
+
 .OpenMenuAnimation {
   animation: menuBar ease-out 0.5s;
 }

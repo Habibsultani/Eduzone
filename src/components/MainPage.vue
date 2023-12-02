@@ -1,7 +1,16 @@
 <template>
-  <section class="bg-blue-200 md:h-[200vh] h-[100vh] w-screen">
+  <section :class="{ bigOldStyleContainer: isOldscreen }">
+    <!-- ******************************************************************************************************************************************** -->4
+
+    <!-- this the new testing ui for big screen in the hero section and the main page -->
+
+    <section>
+      <dev> </dev>
+    </section>
+
+    <!-- *******************************************************************************************************************************************************-->
     <!-- big screen -->
-    <header
+    <!-- <header
       :class="{ glassHeader: isGlass }"
       class="hidden md:block w-screen fixed"
     >
@@ -171,7 +180,7 @@
     </section>
     <section class="hidden md:block">
       <the-footer></the-footer>
-    </section>
+    </section> -->
 
     <!-- small screen part   -->
     <top-shape></top-shape>
@@ -218,6 +227,7 @@ export default {
   data() {
     return {
       isGlass: false,
+      isOldscreen: false,
     };
   },
 
