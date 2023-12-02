@@ -91,7 +91,7 @@
                 </div>
               </button>
               <button>
-                <p>Learn More</p>
+                <p>Subscribe</p>
                 <svg
                   stroke-width="4"
                   stroke="currentColor"
