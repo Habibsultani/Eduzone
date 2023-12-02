@@ -1,11 +1,28 @@
 <template>
   <section :class="{ bigOldStyleContainer: isOldscreen }">
-    <!-- ******************************************************************************************************************************************** -->4
+    <!-- ******************************************************************************************************************************************** -->
 
     <!-- this the new testing ui for big screen in the hero section and the main page -->
 
-    <section>
-      <dev> </dev>
+    <section class="md:max-w-[1280px] mx-auto">
+      <header>
+        <nav class="py-6 flex">
+          <!-- Here is the logo place -->
+          <h2>Eduzone</h2>
+          <ul class="flex justify-between">
+            <li>
+              <button>About us</button>
+            </li>
+            <li>
+              <button>Our Services</button>
+            </li>
+            <li>
+              <button>Your cart</button>
+            </li>
+          </ul>
+          <button>Sign up</button>
+        </nav>
+      </header>
     </section>
 
     <!-- *******************************************************************************************************************************************************-->
