@@ -4,55 +4,61 @@
 
     <!-- this the new testing ui for big screen in the hero section and the main page -->
 
-    <section class="md:max-w-[1280px] mx-auto">
-      <header class="container">
-        <nav class="py-6 flex justify-between align-center">
-          <!-- Here is the logo place -->
-          <h2 class="text-center text-gray-700 text-xl font-logo">Eduzone</h2>
-          <ul class="flex gap-4 align-baseline">
-            <li>
-              <button class="btn-nav font-vazirmtn">about us</button>
-            </li>
-            <li>
-              <button class="btn-nav font-vazirmtn">our service</button>
-            </li>
-            <li>
-              <button class="btn-nav font-vazirmtn">your cart</button>
-            </li>
-          </ul>
-          <button class="animated-button-nav">
-            <span class="font-vazirmtn">Sign up</span>
-            <span></span>
-          </button>
-        </nav>
-      </header>
-      <div
-        id="hero-section"
-        class="container flex align-center justify-center pt-20"
-      >
-        <div class="flex flex-col">
-          <h1
-            class="text-6xl text-center font-vazirmtn font-bold text-teal-950 leading-snug tracking-wider"
-          >
-            Unlock Your <br />
-            Learning Potential
-          </h1>
-          <p
-            class="text-center text-lg tracking-widest text-teal-900 font-semibold"
-          >
-            High-Quality Education, Accessable Anywhere
-          </p>
-          <div class="flex gap-5 align-center justify-center mt-10">
-            <button class="animated-button-register">
-              <span class="font-vazirmtn">Register</span>
+    <section class="md:max-w-[1280px] mx-auto hidden md:block">
+      <div id="hero-section" class="h-screen">
+        <header class="container max-w-[1280px] mx-auto px-5 fixed">
+          <nav class="py-6 flex justify-between align-center">
+            <!-- Here is the logo place -->
+            <h2 class="text-center text-gray-700 text-xl font-logo">Eduzone</h2>
+            <ul class="flex gap-4 align-baseline">
+              <li>
+                <button class="btn-nav font-vazirmtn">about us</button>
+              </li>
+              <li>
+                <button class="btn-nav font-vazirmtn">our service</button>
+              </li>
+              <li>
+                <button class="btn-nav font-vazirmtn">your cart</button>
+              </li>
+            </ul>
+            <button class="animated-button-nav">
+              <span class="font-vazirmtn">Sign up</span>
               <span></span>
             </button>
-            <!-- <button
+          </nav>
+        </header>
+        <div
+          id="hero-child-section"
+          class="container flex align-center justify-center pt-48"
+        >
+          <div class="flex flex-col">
+            <h1
+              class="text-6xl text-center font-vazirmtn font-bold text-teal-950 leading-snug tracking-wider"
+            >
+              Unlock Your <br />
+              Learning Potential
+            </h1>
+            <p
+              class="text-center text-lg tracking-widest text-teal-900 font-semibold"
+            >
+              High-Quality Education, Accessable Anywhere
+            </p>
+            <div class="flex gap-5 align-center justify-center mt-10">
+              <button class="animated-button-register">
+                <span class="font-vazirmtn">Register</span>
+                <span></span>
+              </button>
+              <!-- <button
               class="text-lg text-white px-14 py-3 rounded-full bg-teal-950"
             >
               Register
             </button> -->
-            <button class="text-lg px-14 py-3 rounded-full">Sign in</button>
+              <button
+                class="text-md font-vazirmtn font-bold px-8 py-3 rounded-full border-2"
+              >
+                Sign in <span class="ml-1">&#x2197;</span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
