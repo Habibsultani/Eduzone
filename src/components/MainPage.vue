@@ -11,17 +11,13 @@
           <h2 class="text-center text-gray-700 text-xl font-logo">Eduzone</h2>
           <ul class="flex gap-4 align-baseline">
             <li>
-              <button class="btn-nav">about</button>
+              <button class="btn-nav">about us</button>
             </li>
             <li>
-              <button class="text-sm font-wazirmtn mt-2 font-semibold pt-2 p-4">
-                Our Services
-              </button>
+              <button class="btn-nav">our service</button>
             </li>
             <li>
-              <button class="text-sm font-wazirmtn mt-2 font-semibold pt-2 p-4">
-                Your cart
-              </button>
+              <button class="btn-nav">your cart</button>
             </li>
           </ul>
           <button class="animated-button">
