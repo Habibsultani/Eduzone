@@ -5,6 +5,7 @@
     <!-- this the new testing ui for big screen in the hero section and the main page -->
 
     <section class="md:max-w-[1280px] mx-auto hidden md:block">
+      <!-- The hero section  -->
       <div id="hero-section" class="h-screen">
         <header class="container max-w-[1280px] mx-auto px-5 fixed">
           <nav class="py-6 flex justify-between align-center">
@@ -59,6 +60,38 @@
                 Sign in <span class="ml-1">&#x2197;</span>
               </button>
             </div>
+          </div>
+        </div>
+      </div>
+      <!-- The testemonials part -->
+      <div id="testemonials" class="bg-red-400 p-5">
+        <div class="flex gap-3">
+          <div>
+            <h1>1M+</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+              explicabo culpa architecto consectetur quidem aliquid, iste nihil
+              minus cum quas accusamus incidunt iure optio? Eos quam est maiores
+              voluptates impedit?
+            </p>
+          </div>
+          <div>
+            <h1>1M+</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+              explicabo culpa architecto consectetur quidem aliquid, iste nihil
+              minus cum quas accusamus incidunt iure optio? Eos quam est maiores
+              voluptates impedit?
+            </p>
+          </div>
+          <div>
+            <h1>1M+</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+              explicabo culpa architecto consectetur quidem aliquid, iste nihil
+              minus cum quas accusamus incidunt iure optio? Eos quam est maiores
+              voluptates impedit?
+            </p>
           </div>
         </div>
       </div>
