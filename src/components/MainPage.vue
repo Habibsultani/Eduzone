@@ -5,7 +5,7 @@
     <!-- this the new testing ui for big screen in the hero section and the main page -->
 
     <section class="md:max-w-[1280px] mx-auto">
-      <header>
+      <header class="container">
         <nav class="py-6 flex justify-between align-center">
           <!-- Here is the logo place -->
           <h2 class="text-center text-gray-700 text-xl font-logo">Eduzone</h2>
@@ -20,12 +20,42 @@
               <button class="btn-nav font-vazirmtn">your cart</button>
             </li>
           </ul>
-          <button class="animated-button">
+          <button class="animated-button-nav">
             <span class="font-vazirmtn">Sign up</span>
             <span></span>
           </button>
         </nav>
       </header>
+      <div
+        id="hero-section"
+        class="container flex align-center justify-center pt-20"
+      >
+        <div class="flex flex-col">
+          <h1
+            class="text-6xl text-center font-vazirmtn font-bold text-teal-950 leading-snug tracking-wider"
+          >
+            Unlock Your <br />
+            Learning Potential
+          </h1>
+          <p
+            class="text-center text-lg tracking-widest text-teal-900 font-semibold"
+          >
+            High-Quality Education, Accessable Anywhere
+          </p>
+          <div class="flex gap-5 align-center justify-center mt-10">
+            <button class="animated-button-register">
+              <span class="font-vazirmtn">Register</span>
+              <span></span>
+            </button>
+            <!-- <button
+              class="text-lg text-white px-14 py-3 rounded-full bg-teal-950"
+            >
+              Register
+            </button> -->
+            <button class="text-lg px-14 py-3 rounded-full">Sign in</button>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- *******************************************************************************************************************************************************-->

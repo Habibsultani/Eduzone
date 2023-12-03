@@ -195,7 +195,7 @@ button svg {
 /* ******************************************************************************************************000 */
 
 /* code for testing of the new ui */
-.animated-button {
+.animated-button-nav {
   position: relative;
   display: inline-block;
   padding: 8px 30px;
@@ -211,7 +211,7 @@ button svg {
   transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
 }
 
-.animated-button span:last-child {
+.animated-button-nav span:last-child {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -224,21 +224,71 @@ button svg {
   transition: all 0.8s cubic-bezier(0.23, 1, 0.320, 1);
 }
 
-.animated-button span:first-child {
+.animated-button-nav span:first-child {
   position: relative;
   z-index: 1;
 }
 
-.animated-button:hover {
+.animated-button-nav:hover {
   box-shadow: 0 0 0 4px #052e16;
   color: #ffffff;
 }
 
-.animated-button:active {
+.animated-button-nav:active {
   scale: 0.95;
 }
 
-.animated-button:hover span:last-child {
+.animated-button-nav:hover span:last-child {
+  width: 150px;
+  height: 150px;
+  opacity: 1;
+}
+
+
+.animated-button-register {
+  position: relative;
+  display: inline-block;
+  padding: 2px 38px;
+  border: none;
+  font-size: 16px;
+  background-color: #052e16;
+  border-radius: 100px;
+  font-weight: 600;
+  color: #ffffff;
+  box-shadow: 0 0 0 2px #052e16;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.animated-button-register span:last-child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.animated-button-register span:first-child {
+  position: relative;
+  z-index: 1;
+}
+
+.animated-button-register:hover {
+  box-shadow: 0 0 0 3px #052e16;
+  color: #052e16;
+}
+
+.animated-button-register:active {
+  scale: 0.95;
+}
+
+.animated-button-register:hover span:last-child {
   width: 150px;
   height: 150px;
   opacity: 1;
@@ -280,5 +330,4 @@ button svg {
   transition-duration: 400ms;
   transition-property: width, left;
 }
-
 
