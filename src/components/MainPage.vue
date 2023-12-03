@@ -4,7 +4,7 @@
 
     <!-- this the new testing ui for big screen in the hero section and the main page -->
 
-    <section class="md:max-w-[1280px] mx-auto hidden md:block">
+    <section class="md:max-w-[1280px] mx-auto hidden md:block px-5">
       <!-- The hero section  -->
       <div id="hero-section" class="h-screen">
         <header class="container max-w-[1280px] mx-auto px-5 fixed">
@@ -64,11 +64,13 @@
         </div>
       </div>
       <!-- The testemonials part -->
-      <div id="testemonials" class="bg-red-400 p-5">
+      <div id="testemonials" class="bg-red-400 p-5 rounded-[10px]">
         <div class="flex gap-3">
           <div>
-            <h1>1M+</h1>
-            <p>
+            <h1 class="text-center text-2xl font-bold font-vazirmtn mb-3">
+              1M+
+            </h1>
+            <p class="text-md p-4 flex-wrap">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
               explicabo culpa architecto consectetur quidem aliquid, iste nihil
               minus cum quas accusamus incidunt iure optio? Eos quam est maiores
