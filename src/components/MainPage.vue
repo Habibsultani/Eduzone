@@ -73,7 +73,7 @@
               1M+
             </h1>
             <p
-              class="text-md text-center text-teal-50 p-6 flex-wrap border-r-2"
+              class="text-md text-center text-teal-50 p-6 flex-wrap border-r-2 border-teal-700"
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
               explicabo culpa architecto consectetur quidem aliquid, iste nihil
@@ -87,7 +87,7 @@
               500+
             </h1>
             <p
-              class="text-md text-center text-teal-50 p-6 flex-wrap border-r-2"
+              class="text-md text-center text-teal-50 p-6 flex-wrap border-r-2 border-teal-700"
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
               explicabo culpa architecto consectetur quidem aliquid, iste nihil
@@ -107,7 +107,11 @@
             </p>
           </div>
         </div>
+        <!-- This buttton must be correct in the future -->
+        <button class="text-white text-center block">Learn more</button>
       </div>
+      <!-- The Who we are section  -->
+      <div id="who-we-are" class="h-[95vh]"></div>
     </section>
 
     <!-- *******************************************************************************************************************************************************-->
