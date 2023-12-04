@@ -68,7 +68,7 @@
         <div class="flex gap-3">
           <div>
             <h1
-              class="text-center text-2xl text-white font-bold font-vazirmtn my-3"
+              class="text-center text-3xl text-white font-bold font-vazirmtn my-3"
             >
               1M+
             </h1>
@@ -82,11 +82,13 @@
           </div>
           <div>
             <h1
-              class="text-center text-2xl text-white font-bold font-vazirmtn my-3"
+              class="text-center text-3xl text-white font-bold font-vazirmtn my-3"
             >
-              1M+
+              500+
             </h1>
-            <p class="text-md text-teal-50 p-6 flex-wrap border-r-2">
+            <p
+              class="text-md text-center text-teal-50 p-6 flex-wrap border-r-2"
+            >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
               explicabo culpa architecto consectetur quidem aliquid, iste nihil
               minus cum quas
@@ -94,11 +96,11 @@
           </div>
           <div>
             <h1
-              class="text-center text-2xl text-white font-bold font-vazirmtn my-3"
+              class="text-center text-3xl text-white font-bold font-vazirmtn my-3"
             >
-              1M+
+              98%
             </h1>
-            <p class="text-md text-teal-50 p-6 flex-wrap">
+            <p class="text-md text-center text-teal-50 p-6 flex-wrap">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
               explicabo culpa architecto consectetur quidem aliquid, iste nihil
               minus cum quas
