@@ -108,10 +108,20 @@
           </div>
         </div>
         <!-- This buttton must be correct in the future -->
-        <button class="text-white text-center block">Learn more</button>
+        <!-- <button class="text-white text-center block">Learn more</button> -->
       </div>
       <!-- The Who we are section  -->
-      <div id="who-we-are" class="h-[95vh]"></div>
+      <div id="who-we-are" class="h-[95vh]">
+        <div class="flex items-center justify-center gap-10 flex-col my-16">
+          <h2 class="text-center text-4xl">Who We Are?</h2>
+          <p class="max-w-[500px] text-center">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo saepe
+            quos hic quidem fugiat. Optio expedita suscipit ad non dolore
+            molestias. Veniam, dicta maiores blanditiis ipsam facilis officia
+            aliquam tempora!
+          </p>
+        </div>
+      </div>
     </section>
 
     <!-- *******************************************************************************************************************************************************-->
