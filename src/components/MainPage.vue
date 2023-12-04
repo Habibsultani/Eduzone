@@ -64,35 +64,44 @@
         </div>
       </div>
       <!-- The testemonials part -->
-      <div id="testemonials" class="bg-red-400 p-5 rounded-[10px]">
+      <div id="testemonials" class="bg-teal-900 p-10 rounded-[10px]">
         <div class="flex gap-3">
           <div>
-            <h1 class="text-center text-2xl font-bold font-vazirmtn mb-3">
+            <h1
+              class="text-center text-2xl text-white font-bold font-vazirmtn my-3"
+            >
               1M+
             </h1>
-            <p class="text-md p-4 flex-wrap">
+            <p
+              class="text-md text-center text-teal-50 p-6 flex-wrap border-r-2"
+            >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
               explicabo culpa architecto consectetur quidem aliquid, iste nihil
-              minus cum quas accusamus incidunt iure optio? Eos quam est maiores
-              voluptates impedit?
+              minus cum quas
             </p>
           </div>
           <div>
-            <h1>1M+</h1>
-            <p>
+            <h1
+              class="text-center text-2xl text-white font-bold font-vazirmtn my-3"
+            >
+              1M+
+            </h1>
+            <p class="text-md text-teal-50 p-6 flex-wrap border-r-2">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
               explicabo culpa architecto consectetur quidem aliquid, iste nihil
-              minus cum quas accusamus incidunt iure optio? Eos quam est maiores
-              voluptates impedit?
+              minus cum quas
             </p>
           </div>
           <div>
-            <h1>1M+</h1>
-            <p>
+            <h1
+              class="text-center text-2xl text-white font-bold font-vazirmtn my-3"
+            >
+              1M+
+            </h1>
+            <p class="text-md text-teal-50 p-6 flex-wrap">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
               explicabo culpa architecto consectetur quidem aliquid, iste nihil
-              minus cum quas accusamus incidunt iure optio? Eos quam est maiores
-              voluptates impedit?
+              minus cum quas
             </p>
           </div>
         </div>
