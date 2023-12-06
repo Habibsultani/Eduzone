@@ -113,6 +113,7 @@
       <!-- The Who we are section  -->
       <div id="who-we-are" class="h-[95vh]">
         <div class="flex items-center justify-center gap-10 flex-col my-16">
+          <whowe-are></whowe-are>
           <h2 class="text-center text-4xl">Who We Are?</h2>
           <p class="max-w-[500px] text-center">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo saepe

@@ -1,8 +1,8 @@
 <template>
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="556.67004"
-    height="400.96784"
+    width="250.67004"
+    height="250.96784"
     viewBox="0 0 556.67004 400.96784"
     xmlns:xlink="http://www.w3.org/1999/xlink"
   >
