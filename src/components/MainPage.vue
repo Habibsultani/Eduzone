@@ -335,9 +335,11 @@
 
 <script>
 import MainImg from "../UI/MainImg.vue";
+import WhoweAre from "../UI/imgs/WhoWeAre.vue";
 export default {
   components: {
     MainImg,
+    WhoweAre,
   },
 
   data() {
