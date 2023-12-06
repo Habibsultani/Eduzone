@@ -73,7 +73,7 @@
               1M+
             </h1>
             <p
-              class="text-md text-center text-teal-50 p-6 flex-wrap border-r-2 border-teal-700"
+              class="text-md text-center font-vazirmtn text-teal-50 p-6 flex-wrap border-r-2 border-teal-700"
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
               explicabo culpa architecto consectetur quidem aliquid, iste nihil
@@ -87,7 +87,7 @@
               500+
             </h1>
             <p
-              class="text-md text-center text-teal-50 p-6 flex-wrap border-r-2 border-teal-700"
+              class="text-md text-center font-vazirmtn text-teal-50 p-6 flex-wrap border-r-2 border-teal-700"
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
               explicabo culpa architecto consectetur quidem aliquid, iste nihil
@@ -100,7 +100,9 @@
             >
               98%
             </h1>
-            <p class="text-md text-center text-teal-50 p-6 flex-wrap">
+            <p
+              class="text-md text-center font-vazirmtn text-teal-50 p-6 flex-wrap"
+            >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
               explicabo culpa architecto consectetur quidem aliquid, iste nihil
               minus cum quas
