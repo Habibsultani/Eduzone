@@ -30,8 +30,20 @@
         </header>
         <div
           id="hero-child-section"
-          class="container flex align-center justify-center pt-48"
+          class="container flex align-center justify-center pt-48 relative"
         >
+          <div class="absolute top-[88%] left-[15%] shadow-xl">
+            <img src="../assets/H1.png" class="h-20" />
+          </div>
+          <div class="absolute top-[30%] left-[10%] shadow-xl">
+            <img src="../assets/H3.png" class="h-10" />
+          </div>
+          <div class="absolute top-[20%] left-[80%] shadow-xl">
+            <img src="../assets/H4.png" class="h-20" />
+          </div>
+          <div class="absolute top-[95%] left-[80%] shadow-xl">
+            <img src="../assets/H2.png" class="h-10" />
+          </div>
           <div class="flex flex-col">
             <h1
               class="text-6xl text-center font-vazirmtn font-bold text-teal-950 leading-snug tracking-wider"
