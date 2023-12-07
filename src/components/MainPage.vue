@@ -32,17 +32,20 @@
           id="hero-child-section"
           class="container flex align-center justify-center pt-48 relative"
         >
-          <div class="absolute top-[88%] left-[15%] shadow-xl">
-            <img src="../assets/H1.png" class="h-20" />
+          <div class="absolute top-[88%] left-[15%] shadow-xl rounded-xl">
+            <img
+              src="../assets/H1.png"
+              class="h-20 blur-xs opacity-90 rounded-full"
+            />
           </div>
-          <div class="absolute top-[30%] left-[10%] shadow-xl">
-            <img src="../assets/H3.png" class="h-10" />
+          <div class="absolute top-[30%] left-[10%] shadow-xl rounded-full">
+            <img src="../assets/H3.png" class="h-10 blur-xs" />
           </div>
-          <div class="absolute top-[20%] left-[80%] shadow-xl">
-            <img src="../assets/H4.png" class="h-20" />
+          <div class="absolute top-[20%] left-[80%] shadow-xl rounded-md">
+            <img src="../assets/H4.png" class="h-20 blur-xs" />
           </div>
-          <div class="absolute top-[95%] left-[80%] shadow-xl">
-            <img src="../assets/H2.png" class="h-10" />
+          <div class="absolute top-[95%] left-[80%] shadow-xl rounded-full">
+            <img src="../assets/H2.png" class="h-10 blur-xs" />
           </div>
           <div class="flex flex-col">
             <h1

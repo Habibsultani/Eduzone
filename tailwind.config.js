@@ -7,6 +7,9 @@ export default {
         logo: ["Mochiy Pop P One"],
         vazirmtn: ["Vazirmatn", "sens-serif"],
       },
+      blur: {
+        xs: '1.5px',
+      }
     },
   },
   plugins: [],
