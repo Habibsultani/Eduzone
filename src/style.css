@@ -194,6 +194,22 @@ button svg {
 
 /* ******************************************************************************************************000 */
 
+/* test  */
+
+/* #646cffaa */
+
+.btn-white:hover {
+  filter: drop-shadow(0 0 1.6em #000);
+}
+.btn-green:hover {
+  filter: drop-shadow(0 0 0.35em #052e16);
+}
+
+
+
+
+/* ////////////////// */
+
 /* code for testing of the new ui */
 .animated-button-nav {
   position: relative;

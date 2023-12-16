@@ -13,13 +13,19 @@
             <h2 class="text-center text-gray-700 text-xl font-logo">Eduzone</h2>
             <ul class="flex gap-4 align-baseline">
               <li>
-                <button class="btn-nav font-vazirmtn">about us</button>
+                <button class="btn-nav font-vazirmtn btn-white">
+                  about us
+                </button>
               </li>
               <li>
-                <button class="btn-nav font-vazirmtn">our service</button>
+                <button class="btn-nav font-vazirmtnv btn-white">
+                  our service
+                </button>
               </li>
               <li>
-                <button class="btn-nav font-vazirmtn">your cart</button>
+                <button class="btn-nav font-vazirmtn btn-white">
+                  your cart
+                </button>
               </li>
             </ul>
             <button class="animated-button-nav">
@@ -60,7 +66,7 @@
               High-Quality Education, Accessable Anywhere
             </p>
             <div class="flex gap-5 align-center justify-center mt-10">
-              <button class="animated-button-register">
+              <button class="animated-button-register btn-green">
                 <span class="font-vazirmtn">Register</span>
                 <span></span>
               </button>
@@ -70,7 +76,7 @@
               Register
             </button> -->
               <button
-                class="text-md font-vazirmtn font-bold px-8 py-3 rounded-full border-2"
+                class="text-md btn-white font-vazirmtn font-bold px-8 py-3 rounded-full border-2"
               >
                 Sign in <span class="ml-1">&#x2197;</span>
               </button>
