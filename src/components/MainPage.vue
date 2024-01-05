@@ -154,7 +154,7 @@
     <the-footer></the-footer>
     <!-- Our Students opiniion -->
 
-    <!-- <div class="h-[95vh] w-screen bg-slate-400 relative">
+    <div class="h-[95vh] w-screen bg-slate-400 relative">
       <div class="max-w-[1280px] mx-auto px-6 py-5">
         <h2 class="text-4xl font-semibold font-vazirmtn">
           Our student opinion
@@ -165,7 +165,7 @@
           Here is a card
         </div>
       </div>
-    </div> -->
+    </div>
 
     <!-- *******************************************************************************************************************************************************-->
     <!-- big screen -->
