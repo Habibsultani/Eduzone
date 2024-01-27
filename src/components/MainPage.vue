@@ -10,7 +10,9 @@
         <header class="container max-w-[1280px] mx-auto px-5 fixed z-10">
           <nav class="py-6 flex justify-between align-center">
             <!-- Here is the logo place -->
-            <h2 class="text-center text-gray-700 text-xl font-logo">Eduzone</h2>
+
+            <img class="h-10" src="../assets/EDUZONE.png" alt="edozone-Logo" />
+
             <ul class="flex gap-4 align-baseline">
               <li>
                 <button class="btn-nav font-vazirmtn btn-white">
